@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-11725-5544-en0xjl\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-11725-5544-en0xjl\\package.tgz",
+        "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-11725-5544-en0xjl\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-11725-5544-ikd053"
+    ]
+  ],
+  "_from": "..\\d-11725-5544-en0xjl\\package.tgz",
+  "_id": "linter-cppcheck@0.2.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/linter-cppcheck",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-11725-5544-en0xjl\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-11725-5544-en0xjl\\package.tgz",
+    "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-11725-5544-en0xjl\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11725-5544-en0xjl\\package.tgz",
+  "_shasum": "c608d64a8f705ac1082ad2e5ac38b14ce215d5b9",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-11725-5544-en0xjl\\package.tgz",
+  "_where": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-11725-5544-ikd053",
+  "activationCommands": {},
+  "author": {
+    "name": "Theo ‘Biffen’ Willows",
+    "email": "theo@willows.se"
+  },
+  "bugs": {
+    "url": "https://github.com/Munkei/atom-linter-cppcheck/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+    "atom-linter": "^8.0.0"
+  },
+  "description": "A linter for Atom using Cppcheck",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+      }
+    }
+  },
+  "homepage": "https://github.com/Munkei/atom-linter-cppcheck",
+  "keywords": [
+    "c",
+    "c++",
+    "linter"
+  ],
+  "license": "MIT",
+  "main": "./lib/linter-cppcheck",
+  "name": "linter-cppcheck",
+  "optionalDependencies": {},
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "readme": "# linter-cppcheck #\n\n[![Build Status](https://img.shields.io/travis/Munkei/atom-linter-cppcheck.svg?style=flat-square)](https://travis-ci.org/Munkei/atom-linter-cppcheck)\n[![License](https://img.shields.io/github/license/Munkei/atom-linter-cppcheck.svg?style=flat-square)](https://github.com/Munkei/atom-linter-cppcheck/blob/master/LICENSE.md)\n[![Downloads](https://img.shields.io/apm/dm/linter-cppcheck.svg?style=flat-square)](https://atom.io/packages/linter-cppcheck)\n\n---\n\nA [linter] for [Atom] using [Cppcheck].\n\n## Requirements ##\n\n[Cppcheck] needs to be installed (or at least available). Its path can be\nconfigured.\n\nWithout [Linter] this package is rather useless.\n\n## Acknowledgements ##\n\nThis package is really a tiny amount of glue between other great pieces of\nsoftware, namely the [Linter] package, the [atom-linter] module and — of course\n— [Cppcheck].\n\n  [Atom]: https://atom.io\n\n  [atom-linter]: https://www.npmjs.com/package/atom-linter\n\n  [Cppcheck]: http://cppcheck.sourceforge.net\n\n  [Linter]: https://atom.io/packages/linter\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Munkei/atom-linter-cppcheck.git"
+  },
+  "version": "0.2.2"
+}
